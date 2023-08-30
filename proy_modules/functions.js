@@ -11,7 +11,7 @@ function numerosPares(numeros) {
   const numerosPares = numeros.filter(numero => numero % 2 === 0);
 
   console.log((`Número de números pares: ${numerosPares.length}`.bgCyan));
-  console.log('}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}'.bgMagenta)
+  console.log('}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}+'.bgMagenta)
   console.log(('Números pares:'.bgCyan), numerosPares.join(', '));
   console.log('}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}'.bgWhite.red)
 }
